@@ -29,22 +29,22 @@ public class Cs4_Photon_Ladra {
         System.out.println("Color: " + color3);
         System.out.println("Price: " + price3 + "\n");
         
-        String verify1, verify2;
+        boolean verify1, verify2;
         int difference = price2 - price1;
         int quotient = price2/price3;
         
         if (price1 < price3){
-            verify1 = "TRUE";
+            verify1 = true;
         }
         else {
-            verify1 = "FALSE";
+            verify1 = false;
         }
         
         if ((price1+price2+price3) < 11500) {
-            verify2 = "TRUE";
+            verify2 = true;
         }
         else {
-            verify2 = "FALSE";
+            verify2 = false;
         }
         
         System.out.println("Is the watch more expensive than the mouse: " + verify1); //operation: comparison
