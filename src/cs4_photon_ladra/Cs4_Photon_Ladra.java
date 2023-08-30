@@ -19,6 +19,16 @@ public class Cs4_Photon_Ladra {
         System.out.println("Object name: " + object1);
         System.out.println("Color: " + color1);
         System.out.println("Price: " + price1);
+
+        System.out.println("Object 2");
+        System.out.println("Object name: " + object2);
+        System.out.println("Color: " + color2);
+        System.out.println("Price: " + price2);
+
+        System.out.println("Object 3");
+        System.out.println("Object name: " + object3);
+        System.out.println("Color: " + color3);
+        System.out.println("Price: " + price3);
     }
     
 }
