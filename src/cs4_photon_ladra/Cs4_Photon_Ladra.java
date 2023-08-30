@@ -29,7 +29,7 @@ public class Cs4_Photon_Ladra {
         System.out.println("Color: " + color3);
         System.out.println("Price: " + price3 + "\n");
         
-        String verify1, verify2, verify3;
+        String verify1, verify2;
         int difference = price2 - price1;
         int quotient = price2/price3;
         
