@@ -29,7 +29,7 @@ public class Cs4_Photon_Ladra {
         System.out.println("Color: " + color3);
         System.out.println("Price: " + price3 + "\n");
         
-        boolean verify1, verify2;
+        boolean verify1, verify2, verify3;
         int difference = price2 - price1;
         int quotient = price2/price3;
         
@@ -46,11 +46,18 @@ public class Cs4_Photon_Ladra {
         else {
             verify2 = false;
         }
+        if (color3 == "black"){
+            verify3 = true;
+        }
+        else {
+            verify3 = false;
+        }
         
         System.out.println("Is the watch more expensive than the mouse: " + verify1); //operation: comparison
         System.out.println("\nHow much more expensive is the phone compared to the mouse? " + difference); //operation: subtraction
         System.out.println("\nIs the total price of all objects less than 11500 pesos? " + verify2);   //operation: comparison
         System.out.println("\nHow many watch is a phone worth? " + quotient);    //operation: division
+        System.out.println("\nIs the color of the watch black? " + verify3); //operation: comparison
     }
     
 }
