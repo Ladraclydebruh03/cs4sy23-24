@@ -2,9 +2,9 @@ package cs4_photon_ladra;
 public class Cs4_Photon_Ladra {
 
     public static void main(String[] args) {
-     //   String object1 = "mouse";
-     //   String color1 = "black";
-     //   int price1 = 300;
+        String object1 = "mouse";
+        String color1 = "black";
+        int price1 = 300;
 
         String object2 = "phone";
         String color2 = "gray";
